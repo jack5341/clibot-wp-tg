@@ -27,7 +27,7 @@ $ npm install -g .
 ## How to run
 
 ```sh
-  $ clibot
+$ clibot
 ```
 
 ## Requirements
