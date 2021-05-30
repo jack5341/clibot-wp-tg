@@ -72,9 +72,10 @@ module.exports.getCredentials = async () => {
 };
 
 module.exports.getOrder = async () => {
+  let config = await fs.readJSONSync("./bin/config.json")
   const questions = {
     name: "order",
-    message: "What can i do for ya ?",
+    message: `What can i do for ya ${config.user.usr_name}?`,
     type: "list",
     choices: [
       { name: "Send a message to someone", value: 1 },
@@ -131,7 +132,7 @@ module.exports.getMessage = async() => {
   if(message.to === 99) return this.getOrder()
   console.log(
     chalk.bgGreen.black(`Message sent succesfully to ${friendlist[message.to].name}
-Your message is ${message.msg}`)
+Your message was ${message.msg}`)
   )
   return this.getOrder()
 }

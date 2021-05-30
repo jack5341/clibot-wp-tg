@@ -17,7 +17,8 @@
 
 
 # Clibot-wp-tg
-This is a simple **CLIBOT** for Whatsapp and Telegram. Developing by Telegram API and Whatsapp third pary APIs. How cool ! 😎 after installation you will be able to send message from the terminal
+This is a simple **CLIBOT** for Whatsapp and Telegram. Developing by Telegram API and Whatsapp third pary APIs. How cool ! 😎 after installation you will be able to send message
+ from the terminal
 
 ## Installation
 
