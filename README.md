@@ -8,24 +8,26 @@
     <img alt="Twitter: 0jack5341" src="https://img.shields.io/twitter/follow/0jack5341.svg?style=social" />
   </a>
     <img alt="Version" src="https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000" />
-
 </p>
 
-|   	|   	|
-|---	|---	|
- ![clibanner-1](./master/clibot-banner.png) |  ![clibanner-2](./master/clibot-banner-2.png) 
-
+![clibanner-1](./master/clibot-ss.png)
 
 # Clibot-wp-tg
 This is a simple **CLIBOT** for Whatsapp and Telegram. Developing by Telegram API and Whatsapp third pary APIs. How cool ! 😎 after installation you will be able to send message
- from the terminal
+from the terminal
 
 ## Installation
 
 Use the packager manager npm to install clibot. 
 
 ```sh
-$ npm install -g . && clibot 
+$ npm install -g . 
+```
+
+## How to run
+
+```sh
+  $ clibot
 ```
 
 ## Requirements
@@ -33,6 +35,13 @@ Requirements for run correctly bot.
 * API Key (Telegram)
 * API Key (Whatsapp)
 * Your phone and PC should be connected to internet
+
+## Screenshots
+
+|   |   |
+|--	|--	|
+ ![clibanner-1](./master/clibot-ss-2.png) |  ![clibanner-2](./master/clibot-ss-3.png) 
+
 
 ## Author
 👤 **jack5341**

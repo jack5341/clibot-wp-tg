@@ -56,11 +56,6 @@ module.exports.getCredentials = async () => {
       name: "tg_key",
       type: "input",
       message: "API Key for Telegram: (Please fill correctly)"
-    },
-    {
-      name: "usr_name",
-      type: "input",
-      message: "How should i call you *:"
     }
   ]
 
@@ -72,10 +67,9 @@ module.exports.getCredentials = async () => {
 };
 
 module.exports.getOrder = async () => {
-  let config = await fs.readJSONSync("./bin/config.json")
   const questions = {
     name: "order",
-    message: `What can i do for ya ${config.user.usr_name}?`,
+    message: `What can i do for ya?`,
     type: "list",
     choices: [
       { name: "Send a message to someone", value: 1 },
@@ -97,7 +91,7 @@ module.exports.getOrder = async () => {
       return this.getApp()
     case 99:
       fs.writeJSON("./bin/config.json", {});
-      console.log(chalk.bgYellow.black(" Configs deleted succesfully "));
+      console.log(chalk.bgYellow.black(" Configs cleaned succesfully "));
       return this.getCredentials();
 
     default:
