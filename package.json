@@ -1,0 +1,20 @@
+{
+  "name": "clibot",
+  "version": "0.0.1",
+  "description": "Nodejs Whatsapp and Telegram Bot CLI",
+  "main": "bin/index.js",
+  "scripts": {
+    "start": "node bin/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nedim Akar (jack5341)",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "express": "^4.17.1",
+    "figlet": "^1.5.0",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.1.0",
+    "ora": "^5.4.0"
+  }
+}
