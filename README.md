@@ -32,7 +32,7 @@ $ npm install -g . && clibot
 Requirements for run correctly bot.
 * API Key (Telegram)
 * API Key (Whatsapp)
-* Your phone should be connected to internet
+* Your phone and PC should be connected to internet
 
 ## Author
 👤 **jack5341**
