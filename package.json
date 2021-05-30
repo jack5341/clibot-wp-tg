@@ -1,5 +1,5 @@
 {
-  "name": "clibot",
+  "name": "clibot-wp-tg",
   "version": "0.0.1",
   "description": "Nodejs Whatsapp and Telegram Bot CLI",
   "main": "bin/index.js",
