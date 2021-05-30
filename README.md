@@ -1,4 +1,4 @@
-> # still in under development 🚧
+> # Still in under development 🚧
 
 <p>
   <a href="#" target="_blank">
@@ -27,6 +27,12 @@ Use the packager manager npm to install clibot.
 ```sh
 $ npm install -g . && clibot 
 ```
+
+## Requirements
+Requirements for run correctly bot.
+* API Key (Telegram)
+* API Key (Whatsapp)
+* Your phone should be connected to internet
 
 ## Author
 👤 **jack5341**

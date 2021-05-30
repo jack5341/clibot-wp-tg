@@ -48,16 +48,21 @@ oh fuck! i forgot
 module.exports.getCredentials = async () => {
   const questions = [
     {
-      name: "user_name",
+      name: "wp_key",
       type: "input",
-      message: "How should I call you:",
+      message: "API Key for Whatsapp: (Please fill correctly)",
     },
     {
-      name: "api_key",
+      name: "tg_key",
       type: "input",
-      message: "Please enter your API Key:",
+      message: "API Key for Telegram: (Please fill correctly)"
     },
-  ];
+    {
+      name: "usr_name",
+      type: "input",
+      message: "How should i call you *:"
+    }
+  ]
 
   const values = await inquirer.prompt(questions);
   fs.writeJSON("./bin/config.json", { user: values });
