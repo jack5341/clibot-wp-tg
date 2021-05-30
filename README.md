@@ -16,8 +16,7 @@
  ![clibanner-1](./master/clibot-banner.png) |  ![clibanner-2](./master/clibot-banner-2.png) 
 
 
-# CLIBOT-WP-TG
-
+# Clibot-wp-tg
 This is a simple **CLIBOT** for Whatsapp and Telegram. Developing by Telegram API and Whatsapp third pary APIs. How cool ! 😎 after installation you will be able to send from the terminal
 
 ## Installation
